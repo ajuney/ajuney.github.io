@@ -1,0 +1,187 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #000;
+}
+
+/*home page*/
+
+.jumbotron {
+	background-color: #ffc933; /*change color*/
+	color: #fff;
+	padding: 100px 25px;
+	height: 500px;
+	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+}
+
+.jumbotron:hover {
+	background-color: #c70039;
+	cursor: pointer;
+}
+
+#hello-container {
+    width:100%;
+}
+
+#hello-text {
+    position:relative;
+    width:100%;
+    top: 100px;
+}
+
+#hello {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    line-height:0.5;
+}
+
+#ajuney-text {
+    position:relative;
+    width:100%;
+    top: 120px;
+}
+
+.ajuney {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    line-height:1;
+    font-family: 'Roboto';
+}
+
+#more-container {
+    width:100%;
+}
+
+#more-text {
+    position:relative;
+    width:100%;
+    top: 140px;
+}
+
+#more {
+    text-align: center;
+    color: #fff;
+}
+
+
+#learn-more {
+	color: #fff;
+    border-color: #fff;
+    border-width: medium;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+
+.btn {
+    background-color: transparent; 
+}
+
+.btn:hover {
+    color: #ffb033 !important;
+	background-color: #fff !important;
+}
+
+.container-fluid {
+	padding: 60px 60px;
+}
+
+
+/*ABout ME*/
+
+#about { 
+	/*background-color: #c70039; */
+	color: #000;
+}
+
+/*#home {
+	
+}
+
+#about {
+	height: 100vh;
+}
+
+#projects {
+	height: 100vh;
+}
+
+#contact {
+	height: 100vh;
+}
+*/
+
+/*PROJECTS*/
+.thumbnail:hover {
+	opacity: 0.5;
+}
+
+.thumbnail {
+	color: #000;
+}
+
+#projects {
+	background-color: #ff9c33;
+	color: #fff;
+}
+
+/*CONTACT ME*/
+#contact {
+	text-align: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons a {
+	margin: 0 3px;
+}
+
+.icon-container:hover {
+	opacity: 0.5;
+}
+
+
+/*NAVBAR*/
+.navbar {
+	/*margin-bottom: 0;*/
+	background-color: #ffb033;
+	/*z-index: 9999*/
+	font-family: 'Raleway', sans-serif;
+	border: 0;
+	font-size: 11px !important; /*maybe remove some of these things like letter-spacing and f...?*/
+	letter-spacing: 2px;
+	/*line-height: 1.42857142 !important;*/
+	border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand { /*REMOVE NAVBARBRAND IF NO LONGER USING IT*/
+	color: #fff !important; /*change color and maybe remove important*/
+}
+.navbar-nav li a:hover, .navbar-nav li.active a  {
+	color: #ffb033 !important;
+	background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	color: #fff !important;
+}
+
+/*FOOTER COPYRIGHT*/
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
