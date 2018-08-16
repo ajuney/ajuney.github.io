@@ -10,7 +10,7 @@ body {
 	background-color: #ffc933; /*change color*/
 	color: #fff;
 	padding: 100px 25px;
-	height: 500px;
+	height: 100vh;
 	-webkit-transition: background-color 2s ease-out;
 	-moz-transition: background-color 2s ease-out;
 	-o-transition: background-color 2s ease-out;
@@ -19,7 +19,6 @@ body {
 
 .jumbotron:hover {
 	background-color: #c70039;
-	cursor: pointer;
 }
 
 #hello-container {
