@@ -11,14 +11,14 @@ body {
 	color: #fff;
 	padding: 100px 25px;
 	height: 100vh;
-	-webkit-transition: background-color 2s ease-out;
-	-moz-transition: background-color 2s ease-out;
-	-o-transition: background-color 2s ease-out;
-	transition: background-color 2s ease-out;
+	-webkit-transition: background-color 3s ease-out;
+	-moz-transition: background-color 3s ease-out;
+	-o-transition: background-color 3s ease-out;
+	transition: background-color 3s ease-out;
 }
 
 .jumbotron:hover {
-	background-color: #c70039;
+	background-color: #ffb033;
 }
 
 #hello-container {
@@ -90,7 +90,7 @@ body {
 }
 
 
-/*ABout ME*/
+/*ABOUT ME*/
 
 #about { 
 	/*background-color: #c70039; */
@@ -124,8 +124,46 @@ body {
 }
 
 #projects {
-	background-color: #ff9c33;
-	color: #fff;
+	color: #000;
+}
+
+.project-container {
+    position: relative;
+    width: 100%
+
+}
+.project-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translate(-30%, -25%);
+    -ms-transform: translate(-30%, -25%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffc933;
+
+}
+
+.project-container:hover .overlay {
+    opacity: 1;
 }
 
 /*CONTACT ME*/
