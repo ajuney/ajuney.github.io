@@ -6,7 +6,7 @@ body {
 
 /* HOME PAGE */
 .jumbotron {
-	background-image: url(yellow.png); /*: #fff/*#ffbf5b*//*change color*/
+	background-image: url(images/yellow.png); /*: #fff/*#ffbf5b*//*change color*/
     background-size: cover;
     align-content: center;
 	color: #fff;
