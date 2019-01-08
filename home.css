@@ -3,7 +3,7 @@ body {
 	font-weight: 300;
 	color: #000;
     opacity: 1;
-    transition: 3s opacity;
+    transition: 6s opacity;
 }
 
 body.fade-out {
